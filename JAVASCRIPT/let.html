@@ -3,13 +3,14 @@
         <h2>js</h2>
         <p id="test"></p>
         <script>
-            let x=10;
-            var y=10;
+            let x=10;//less scope
+            var y=20;//wide scope
             {
-                let x=2;
-                var y=20;
+                let x=22;
+                var y=20;//reassignment is not allowed
             }
-            document.getElementById("test").innerHTML=y;
+            // document.getElementById("test").innerHTML=y;
+            document.getElementById("test").innerHTML=x;
         </script>
     </body>
 </html>
