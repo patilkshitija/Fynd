@@ -58,9 +58,7 @@ li span {
   color: #333;
   font-weight: bold;
 }
-/* li span:nth-child(2) {
-  color: #666;
-} */
+
 li:hover {
   background-color: #f0f0f0;
   cursor: pointer;

@@ -20,8 +20,6 @@ export default {
 body {
   font-family: Arial, sans-serif;
 }
-
-
 #app {
   background-color: #f5f5f5;
   padding: 20px;
