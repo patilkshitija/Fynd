@@ -1,0 +1,12 @@
+MVVM Architeture:
+
+|View| ---->|View Model|----->|Model|
+
+1)View Layer:The View is responsible for displaying the data and handling user interactions such as mouse clicks, button presses, and text input. The View does not directly interactwith the Model, but instead communicates with the
+ViewModel through data bindings or events.
+
+2)View Model Layer:the ViewModel in the MVVM architecture acts as a mediator between the View and the Model.
+It provides the data to the View, handles user interactions, and communicates with the Model to update or retrieve data.
+
+3)Model Layer:the Model layer represents the data and business logic of the application. It is responsible for managing the data, storing it, retrieving it, and manipulating it.
+The Model layer is usually made up of data models and services. Data models represent the entities in the system, such as customers, products, or orders.
